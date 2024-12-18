@@ -1,0 +1,14 @@
+- name: Update web servers
+  hosts: all
+  become: yes
+
+  tasks:
+  - name: Ensure apache is at the latest version
+    ansible.builtin.file:
+      path: /home/vagrant/mali
+      state: touch
+
+
+
+
+
