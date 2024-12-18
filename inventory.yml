@@ -1,0 +1,10 @@
+all:
+  children:
+    webservers:
+      hosts:
+        192.168.56.11:
+    dbservers:
+      hosts:
+        192.168.56.12:
+
+
